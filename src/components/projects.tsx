@@ -16,12 +16,18 @@ export function Projects() {
               <div className="md:col-span-3">
                 <p className="font-serif text-2xl text-quiet">{project.id}</p>
                 <p className="mt-2 text-sm text-quiet">{project.year}</p>
+                <p className="mt-4 text-xs uppercase tracking-[0.18em] text-quiet">{project.category}</p>
               </div>
               <div className="md:col-span-9">
                 <div className="flex flex-wrap items-start justify-between gap-4">
-                  <h3 className="max-w-xl font-serif text-2xl leading-snug tracking-tight text-ink sm:text-[1.75rem]">
-                    {project.title}
-                  </h3>
+                  <div className="max-w-xl">
+                    <h3 className="font-serif text-2xl leading-snug tracking-tight text-ink sm:text-[1.75rem]">
+                      {project.title}
+                    </h3>
+                    <p className="mt-2 text-sm font-medium text-quiet">
+                      {project.role} · {project.outcome}
+                    </p>
+                  </div>
                   <div className="flex flex-wrap gap-3">
                     <a
                       href={project.github}

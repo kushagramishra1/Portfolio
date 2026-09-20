@@ -8,4 +8,6 @@ coverage
 .env.*
 .npmrc
 .node_modules.lock
+screenshots/
+public/__grok/
 npm-debug.log*

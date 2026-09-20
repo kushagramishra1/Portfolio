@@ -33,6 +33,7 @@ export const projects = [
     category: "Full-stack operations platform",
     role: "Lead developer",
     outcome: "Streamlined project tracking, staffing, and invoice visibility for internal operations.",
+    impact: "Reduced manual admin work by giving managers one system for assignments, time tracking, and billing visibility.",
     blurb:
       "Full-stack Flask application built to manage client work, employee assignments, logged hours, and billing from a single system.",
     stack: [
@@ -59,6 +60,7 @@ export const projects = [
     category: "Portfolio / product marketing",
     role: "Designer + frontend engineer",
     outcome: "Created a polished portfolio that gives recruiters a clear snapshot of work and capability in under a minute.",
+    impact: "Turned my technical background into a concise, persuasive story for hiring teams and collaborators.",
     blurb:
       "A responsive portfolio built to communicate strong frontend judgment, product thinking, and technical execution in a hiring-friendly layout.",
     stack: ["React", "TypeScript", "Tailwind CSS", "Vite", "Vercel"],
@@ -77,6 +79,7 @@ export const projects = [
     category: "AI / media safety",
     role: "Team lead",
     outcome: "Delivered a working prototype for media classification with a clear prediction workflow and team-driven delivery.",
+    impact: "Combined AI experimentation with team coordination to produce a more credible and explainable project demo.",
     blurb:
       "A team project combining a Flask backend and React frontend to process uploaded media and surface model predictions in a user-friendly flow.",
     stack: ["TensorFlow", "Vision Transformer", "Flask", "React", "OpenCV"],

@@ -52,6 +52,7 @@ export function Projects() {
                   </div>
                 </div>
                 <p className="mt-4 max-w-2xl text-quiet">{project.blurb}</p>
+                <p className="mt-3 max-w-xl text-sm font-medium text-ink">{project.impact}</p>
                 <ul className="mt-4 flex flex-wrap gap-2">
                   {project.stack.map((item) => (
                     <li

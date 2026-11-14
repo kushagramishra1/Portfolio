@@ -66,7 +66,7 @@ scripts/
 
 - Email: kushagramishraofficial@gmail.com
 - GitHub: https://github.com/kushagramishra1
-- LinkedIn: https://linkedin.com/in/kushagra-mishra
+- LinkedIn: https://www.linkedin.com/in/kushagra-mishra-308510420/
 - Resume: /kushagra-mishra-resume.pdf
 
 ## Repository Notes

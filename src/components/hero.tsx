@@ -55,11 +55,12 @@ export function Hero() {
               href={site.links.linkedin}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex min-h-11 items-center gap-1.5 text-ink transition-opacity duration-150 hover:opacity-70"
+              className="inline-flex min-h-11 items-center gap-2 text-blue-700 font-semibold transition-all duration-150 hover:text-blue-900 hover:underline hover:scale-105"
+              title="View my LinkedIn profile"
             >
-              <Linkedin className="size-4" strokeWidth={1.75} />
+              <Linkedin className="size-4" strokeWidth={2} />
               LinkedIn
-              <ArrowUpRight className="size-3.5" strokeWidth={1.75} />
+              <ArrowUpRight className="size-3.5" strokeWidth={2} />
             </a>
           </li>
           <li>

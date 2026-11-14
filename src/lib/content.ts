@@ -12,7 +12,7 @@ export const site = {
     "I take products from schema to deploy: routing, auth, SQL models, and a frontend recruiters can actually use.",
   links: {
     github: "https://github.com/kushagramishra1",
-    linkedin: "https://linkedin.com/in/kushagra-mishra",
+    linkedin: "https://www.linkedin.com/in/kushagra-mishra-308510420/",
     resume: "/kushagra-mishra-resume.pdf",
   },
 } as const;

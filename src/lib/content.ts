@@ -28,69 +28,75 @@ export const nav = [
 export const projects = [
   {
     id: "01",
-    title: "Client Project Tracking & Billing System",
-    year: "2025",
-    category: "Full-stack operations platform",
-    role: "Lead developer",
-    outcome: "Streamlined project tracking, staffing, and invoice visibility for internal operations.",
-    impact: "Reduced manual admin work by giving managers one system for assignments, time tracking, and billing visibility.",
-    blurb:
-      "Full-stack Flask application built to manage client work, employee assignments, logged hours, and billing from a single system.",
-    stack: [
-      "Python",
-      "Flask",
-      "SQLAlchemy",
-      "MySQL",
-      "Bootstrap 5",
-      "Chart.js",
-    ],
-    highlights: [
-      "Modeled a relational data layer with users, projects, assignments, timesheets, and billing records to keep reporting and access control consistent.",
-      "Added session-based authentication and role-aware routes so admins, employees, and managers only see the actions relevant to them.",
-      "Built dashboards and project filters to help teams review workload and financial health without manual spreadsheet maintenance.",
-    ],
-    github:
-      "https://github.com/kushagramishra1/Client-Project-Tracking-Billing-System",
-    live: null,
+    title: "Nexora AI",
+    icon: "workspace",
+    category: "AI knowledge workspace",
+    role: "Full-stack product",
+    summary:
+      "A team workspace with searchable knowledge bases, an AI assistant, API key management, usage reporting, and member settings.",
+    outcome:
+      "Brings team knowledge and AI-assisted discovery into one connected workspace.",
+    stack: ["TanStack Start", "React", "TypeScript", "PostgreSQL", "Better Auth"],
+    github: "https://github.com/kushagramishra1/nextaura-ai",
+    live: "https://nextaura-ai.vercel.app/",
   },
   {
     id: "02",
-    title: "Personal Portfolio Site",
-    year: "2025",
-    category: "Portfolio / product marketing",
-    role: "Designer + frontend engineer",
-    outcome: "Created a polished portfolio that gives recruiters a clear snapshot of work and capability in under a minute.",
-    impact: "Turned my technical background into a concise, persuasive story for hiring teams and collaborators.",
-    blurb:
-      "A responsive portfolio built to communicate strong frontend judgment, product thinking, and technical execution in a hiring-friendly layout.",
-    stack: ["React", "TypeScript", "Tailwind CSS", "Vite", "Vercel"],
-    highlights: [
-      "Built a modular single-page portfolio with accessible navigation, strong spacing, and concise content hierarchy for quick scanning.",
-      "Structured the content into reusable data objects so project, experience, and skill sections are easier to maintain and extend.",
-      "Prepared it for deployment with a mobile-friendly layout and a clean public-facing presentation.",
-    ],
-    github: "https://github.com/kushagramishra1/Kushagra-Mishra",
-    live: "https://kushagra-mishra.vercel.app",
+    title: "Deepfake Detection & Explainability",
+    icon: "media",
+    category: "Computer vision · media authenticity",
+    role: "Team lead",
+    summary:
+      "A web app that classifies images with a CNN and uses occlusion sensitivity to show which regions influenced its prediction.",
+    outcome:
+      "Pairs each real-or-fake result with a visual explanation instead of a score alone.",
+    stack: ["CNN", "ONNX Runtime", "Flask", "React", "OpenCV"],
+    github:
+      "https://github.com/kushagramishra1/DeepFake-Detection-System-using-CNNs-and-Explainable-AI",
+    live: "https://deepfake-detection-system-pi.vercel.app/",
   },
   {
     id: "03",
-    title: "Deepfake Detection System using Explainable AI",
-    year: "2025",
-    category: "AI / media safety",
-    role: "Team lead",
-    outcome: "Delivered a working prototype for media classification with a clear prediction workflow and team-driven delivery.",
-    impact: "Combined AI experimentation with team coordination to produce a more credible and explainable project demo.",
-    blurb:
-      "A team project combining a Flask backend and React frontend to process uploaded media and surface model predictions in a user-friendly flow.",
-    stack: ["TensorFlow", "Vision Transformer", "Flask", "React", "OpenCV"],
-    highlights: [
-      "Designed the API layer for file upload, inference, and JSON-based prediction responses for a simple front-end consumption flow.",
-      "Coordinated implementation tasks across the team, kept milestones aligned with academic review checkpoints, and presented results clearly.",
-      "Used computer vision pipelines and explainability-focused workflows to create a credible proof of concept around media authenticity analysis.",
-    ],
+    title: "Client Project Tracking & Billing",
+    icon: "operations",
+    category: "Business operations",
+    role: "Full-stack developer",
+    summary:
+      "A role-aware platform for client projects, employee assignments, timesheets, and automated billing reports.",
+    outcome:
+      "Connects project delivery, team workload, and billing in one operations dashboard.",
+    stack: ["Python", "Flask", "SQLAlchemy", "SQLite / MySQL", "Chart.js"],
     github:
-      "https://github.com/kushagramishra1/DeepFake-Detection-System-using-CNNs-and-Explainable-AI",
-    live: null,
+      "https://github.com/kushagramishra1/Client-Project-Tracking-Billing-System",
+    live: "https://client-project-tracking-billing-sys.vercel.app/",
+  },
+  {
+    id: "04",
+    title: "PeopleHub HRMS",
+    icon: "people",
+    category: "People operations",
+    role: "Full-stack developer",
+    summary:
+      "A focused HR portal for workforce overview, employee records, daily attendance, and leave request reviews.",
+    outcome:
+      "Moves routine people operations into a clear dashboard with SQLite-backed records.",
+    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "SQLite"],
+    github: "https://github.com/kushagramishra1/HRMS-Portal",
+    live: "https://people-hub-navy.vercel.app/",
+  },
+  {
+    id: "05",
+    title: "Kushagra Mishra Portfolio",
+    icon: "portfolio",
+    category: "Personal site · product storytelling",
+    role: "Design + frontend",
+    summary:
+      "A responsive portfolio presenting projects, technical skills, education, and experience for quick recruiter review.",
+    outcome:
+      "Turns a broad technical background into a concise, easy-to-explore story.",
+    stack: ["React", "TypeScript", "TanStack Start", "Tailwind CSS", "Vercel"],
+    github: "https://github.com/kushagramishra1/Portfolio",
+    live: "https://portfolio-kushagra14.vercel.app/",
   },
 ] as const;
 

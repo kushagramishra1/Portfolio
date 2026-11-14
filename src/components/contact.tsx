@@ -13,10 +13,10 @@ export function Contact() {
         <div className="grid gap-8 lg:grid-cols-12">
           <a
             href={`mailto:${site.email}`}
-            className="group rounded-xl border border-line bg-raised p-6 transition-[border-color] duration-150 hover:border-ink/25 sm:p-8 lg:col-span-8"
+            className="group min-w-0 rounded-xl border border-line bg-raised p-6 transition-[border-color] duration-150 hover:border-ink/25 sm:p-8 lg:col-span-8"
           >
             <p className="text-xs font-medium uppercase tracking-[0.18em] text-quiet">Email</p>
-            <p className="mt-4 font-serif text-xl tracking-tight text-ink sm:text-3xl">
+            <p className="mt-4 wrap-anywhere font-serif text-xl tracking-tight text-ink sm:text-3xl">
               {site.email}
             </p>
             <span className="mt-6 inline-flex items-center gap-1 text-sm font-medium text-mark">
